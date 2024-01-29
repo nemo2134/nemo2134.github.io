@@ -9,10 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const miscChart = new Chart(ctx, {
         type: 'bar', // Bar chart type
         data: {
-            labels: ['AWS', 'Snowflake', 'Spring', 'Git', 'Jira'],
+            labels: ['AWS', 'Snowflake', 'Spring','Flask', 'Git', 'Jira'],
             datasets: [{
                 label: 'Years',
-                data: [3, 1, 5, 5, 3], // Your data
+                data: [3, 1, 5, 1, 5, 3], // Your data
                 backgroundColor: gradient, // Use the gradient for bar color
                 borderWidth: 1
             }]

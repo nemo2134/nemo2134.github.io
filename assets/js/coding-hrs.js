@@ -12,7 +12,7 @@ function isInViewport(element) {
 
 function startCodingCounter() {
     const targetNumber = 375;
-    const totalDuration = 2000; // Total duration in milliseconds
+    const totalDuration = 3000; // Total duration in milliseconds
     const element = document.getElementById('codingCounter');
     let currentNumber = 0;
     const startTime = Date.now(); // Record the start time

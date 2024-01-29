@@ -12,7 +12,7 @@ function isInViewport(element) {
 
 function startbobaCounter() {
     const targetNumber = 320;
-    const totalDuration = 2000; // Total duration in milliseconds
+    const totalDuration = 2700; // Total duration in milliseconds
     const element = document.getElementById('bobaCounter');
     let currentNumber = 0;
     const startTime = Date.now(); // Record the start time
