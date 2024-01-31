@@ -3892,3 +3892,10 @@ input, select, textarea {
 			height: 62px; /* Adjust to match the size of other icons */
 			vertical-align: middle; /* To align it properly with adjacent text or elements */
 		}
+		.avatar-logo img {
+			border-radius: 50%; /* Makes the image circular */
+			object-fit: cover;  /* Ensures the image covers the area without distortion */
+			width: 85px;       /* Example width, adjust as needed */
+			height: 85px;      /* Example height, adjust as needed */
+			object-position: -1px center;/* Shifts the image to the left within the circle */
+		}
